@@ -1,0 +1,52 @@
+/* General page styling */
+body {
+    background-color: #f8f9fa;  /* Light gray background */
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar Styling */
+.navbar {
+    padding: 15px;
+}
+
+/* Centered content */
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Buttons */
+.btn {
+    border-radius: 5px;
+    transition: 0.2s;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+/* Task List */
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    margin-bottom: 8px;
+}
+
+/* Completed tasks */
+.task-completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+/* Flash messages */
+.alert {
+    padding: 12px;
+    border-radius: 5px;
+}
+
+/* Form inputs */
+.form-control {
+    margin-bottom: 10px;
+}
