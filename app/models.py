@@ -21,5 +21,6 @@ class Task(db.Model):
     description = db.Column(db.Text, nullable=True)
     due_date = db.Column(db.DateTime, nullable=True, default=datetime.utcnow)
     completed = db.Column(db.Boolean, default=False)
+    category = db.Column(db.String(50), nullable=False, default='General')
 
     user_id = db.Column(db.Integer, db.ForeignKey("users.id"), nullable=False)
