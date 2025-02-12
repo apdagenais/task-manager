@@ -21,6 +21,7 @@ def dashboard():
             title=form.title.data,
             description=form.description.data,
             category=form.category.data,
+            due_date=form.due_date.data,
             user_id=current_user.id
         )
         db.session.add(new_task)
